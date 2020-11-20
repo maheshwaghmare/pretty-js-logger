@@ -27,14 +27,21 @@ error('Error log message');
 warn('Warn log message');
 ```
 
+![Simple Log Message](simple-log-mess.png)
+
 #### Log with additional data
 
 ```js
 import { log, info, success, error, warn } from 'pretty-js-logger';
 
 const data = {
-    isLoggedIn: true
+	user: {
+		name: 'Mahesh M. Waghmare',
+		email: 'mwaghmare7@gmail.com',
+	},
+	isLoggedIn: true,
 };
+
 
 // Simple log with log message.
 log('Simple log message.', data );
@@ -47,3 +54,5 @@ error('Error log message', data);
 
 warn('Warn log message', data);
 ```
+
+![Simple Log Message](log-message-with-data.png)
