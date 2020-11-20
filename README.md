@@ -8,9 +8,11 @@ See pretty javascript logs in the console.
 npm i pretty-js-logger
 ```
 
-### Usage
+## Usage
 
-#### Simple log messages
+### Example 1: Simple Log Messages
+
+Below is the simple example which dispaly the log messages.
 
 ```js
 import { log, info, success, error, warn } from 'pretty-js-logger';
@@ -27,9 +29,13 @@ error('Error log message');
 warn('Warn log message');
 ```
 
+**Screenshot**
+
 ![Simple Log Message](simple-log-mess.png)
 
-#### Log with additional data
+#### Log Message with Data
+
+Below is the example with log message with log data.
 
 ```js
 import { log, info, success, error, warn } from 'pretty-js-logger';
@@ -43,7 +49,7 @@ const data = {
 };
 
 
-// Simple log with log message.
+// Log message with log data.
 log('Simple log message.', data );
 
 info('Info log message', data );
@@ -55,4 +61,6 @@ error('Error log message', data);
 warn('Warn log message', data);
 ```
 
-![Simple Log Message](log-message-with-data.png)
+**Screenshot**
+
+![Log message with log data](log-message-with-data.png)
