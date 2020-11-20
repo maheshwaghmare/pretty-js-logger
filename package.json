@@ -1,0 +1,24 @@
+{
+  "name": "pretty-js-logger",
+  "version": "0.0.1",
+  "description": "See pretty colorful logs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheshwaghmare/pretty-js-logger.git"
+  },
+  "keywords": [
+    "logger",
+    "pretty",
+    "logger"
+  ],
+  "author": "Mahesh M. Waghmare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshwaghmare/pretty-js-logger/issues"
+  },
+  "homepage": "https://github.com/maheshwaghmare/pretty-js-logger#readme"
+}
