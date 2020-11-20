@@ -33,7 +33,7 @@ warn('Warn log message');
 
 ![Simple Log Message](simple-log-mess.png)
 
-#### Log Message with Data
+### Example 2: Log Message with Data
 
 Below is the example with log message with log data.
 
